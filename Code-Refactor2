@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Daniel Lucas Portfolio</title>
+  </head>
+  <body>
+    <!--This is the main header-->
+    <div class="header">
+      <div id="company-name">
+        <h1>Charles Danso</h1>
+      </div>
+      <!--This section is for the hyperlinks to the right of the company name on the main header-->
+      <div class="buttons">
+        <button class="btn" href="#about-me"> About Me </button>
+        <br />
+        <br />
+        <br />
+        <button class="btn" href="#work-sample"> Work Samples</button>
+        <br />
+        <br />
+        <br />
+        <button class="btn" href="#Contact"> Contact Me</button>
+        <br />
+        <br />
+        <br />
+        <button class="btn" href="#Blog"> Blog</button>
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+    <div class="banner-image">
+
+        <img style="width: 300px; height: auto; border-radius: 10%; border-width: 3px; border-style: solid;" src="./assets/img/Portrait.jpg" alt="portrait" class="portrait">
+      
+    </div>
+    <!--This section contains my bio-->
+    <div id="about-me">
+      <h2>About Me!</h2>
+      <p>
+        Charles Danso is a former Business Analyst, who specializes in many forms of leadership. With over four years as a Project Manager in Investment Banking, Charles became a senior associate and vice president. During this time, he was responsible for reporting to directors and senior vp's in a Department of over 120 leadership officers. He also served as a liason between his manager from tax and the compliance in the wealth management divisions. 
+        <br>
+        <br>
+        
+        Due to his success as the Business Analayst, he was tapped to work in the Director's office as a Senior Project Manager where he fulfilled quarterly reporting requests. He also served as a liason and spokesperson to the incoming and senior analysts in the department. Business Analyst Charles managed communication by facilitating interviews with department personelle, updating company procedures for incoming and seasoned hires, and creating innovative ways to utilize information on internal systems.
+        <br> 
+        <br>
+
+        He also worked at the National Association of Black Accountants as a Public Relations officer the senior board. During his time at NABA, he did performance evaluations, briefed new joiners on incoming events and community service work. Charles left the organization in recent yeats to pursue other interests. 
+        <br>
+        <br>
+
+        As a financer and business operator, Mr. Danso sees his next evolution will focus on computer technology. He will bring his strong communication background to bear with any project in which he participates. Mr. Danso holds an Bachelors Degree in the Finance and Economics from the University of Albany, and a MBA from UPENN. 
+      </p>
+    </div>
+    <br>
+    <!--This section contains image links to work samples-->
+    <div id="work-sample">
+        <h3>Work Samples</h3>
+    <nav class="card">
+     <div class="box1"><img style="width: 50%; height: auto; border-radius: 5%; border-width: 3px;" src="assets/img/job.JPG" alt="Charles startup"></div>
+      <div class="box2"><img style="width: 50%; height: auto; border-radius: 5%; border-width: 3px;" src="assets/img/sushi.jpg" alt="vacation with girlfriend"></div>
+      <div class="box3"><img style="width: 50%; auto; height: auto; border-radius: 5%; border-width: 3px;" src="assets/img/cooking.jpg" alt="Photo on boat"></div>
+   <div class="box4"><img style="width: 50%; height: auto; border-radius: 5%; border-width: 3px;" src="assets/img/gaming.jpg" alt="Family Picture "></div>
+    </nav>
+    </div>
+    <br>
+    <!--This section contains links to my email accounts-->
+    <div id="Contact">
+        <h4>Contact Me</h4>
+        <p>
+            <ul>
+                <li> <a href= "mailto:charlesdanso12@gmail.com"> Personal Email</a></li>
+                <li><a href="mailto:dansofincialgroup@gmail.com"> Work Email</a></li>
+            </ul>
+        </p>
+    </div>
+    <!--This section contains links to blog postd-->
+    <div id="Blog">
+        <h5>Blog</h5>
+    </div>
+    <script src="./assets\js\script.js"></script>
+
+  </body>
+</html>
